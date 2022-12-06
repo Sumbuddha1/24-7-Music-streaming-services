@@ -1,0 +1,130 @@
+body {
+    margin:10px;
+    padding:0;
+    font-family: Arial;
+    font-size:1em;
+    background-color:#ffffff;
+    color:#000000;
+}
+
+h1, h2 {
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin:10px;
+}
+
+table, th, td {
+    border: black solid 1px;
+    padding:3px;
+}
+
+thead {
+  background-color: #7db54a;
+}
+#header-section{
+  height: 200px;
+
+  background: url("../images/disk2.png");
+background-color: #cccccc;
+
+/* background-image: linear-gradient(red 1%, yellow 1%); */
+  /* background-color: #cccccc;
+  background-image: radial-gradient(red, yellow, green); */
+
+}
+#menu-nav{
+
+  padding-top:2px;
+  padding-bottom:2px;
+
+}
+
+#welcomepage{
+  padding-top:4%;
+
+}
+#musicimage{
+  width:400px;
+  height: 250px;
+}
+#searchbarbox{
+  display: flex;
+  padding: 10px;
+  margin-top: 0.5%;
+  background-color: #cccccc;
+  background-image: linear-gradient(white, #cccccc);
+}
+#searchbar{
+    display: flex;
+}
+#textt{
+  font-size: 24px;
+  text-decoration:none;
+  color: black;
+padding-right: 10px;
+
+}
+.album{
+  display: flex;
+}
+#card{
+max-width: 16rem;
+max-height: 20em;
+margin: 1%;
+break-before: auto;
+}
+.footer{
+
+  background-color: #cccc;
+
+}
+.mainfooter{
+  background: url("../images/disk.jpg");
+
+  margin-top: 300px;;
+  height: 100px;
+}
+.cards{
+  width:50%;
+}
+.sticky-on-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10%;
+  z-index: 1020;
+}
+@media (max-width: 1200px) {
+  .album{
+    padding-left: 10%;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .row{
+    display: inline-block;
+  }
+  .cards{
+    width:100%;
+  }
+  #card{
+
+  max-width: 10em;
+  margin: 1%;
+  display:inline-flex;
+  break-before: auto;
+  }
+}
+#texttf{
+  font-size: 24px;
+  text-decoration:none;
+  color: black;
+padding-right: 10px;
+padding-left: 20px;
+}
+#playsection{
+border-style: none;
+  background-image: linear-gradient(white, navy);
+}
